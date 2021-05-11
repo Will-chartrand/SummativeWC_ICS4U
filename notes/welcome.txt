@@ -1,0 +1,64 @@
+Hello, welcome to the game -
+
+Before you start, you may need to include "winmm" in your linker settings:
+navigate Project->Build options->linker settings->add
+
+In menu:
+To navigate the startup menu, use WA for up and down, and D for select
+
+press x for debug mode - clip through walls, sounds off, no fog of war
+
+In game:
+
+Controls:
+
+  WASD keys to move around
+  Q = LOOK LEFT
+  E = LOOK RIGHT
+  LeftShift = SPRINT
+  Space = Attack
+
+
+You should wear headphones while playing, for the background music and for
+the sound effects.
+
+The console should have resized automatically, but in case it didn't,
+the screen should be 120 columns by 40 rows. You can change this by
+going into the properties of the console window
+
+
+This is mostly just to showcase mechanics. I really wished I could have more of a 
+storyline, but seeing as it is due by the end of this week as I write this, things 
+aren't looking too "cash money" as they say. 
+
+
+around 200 lines of code (for raycasting and collision detection mostly) 
+were "borrowed" from Javidx9 over Github, and he has an excellent video explaining
+how these mechanics work.
+
+
+The rest was done by me (Will Chartrand) and I'm currently writing this on
+Wednesday, April 6th, 2021
+
+
+I really wish that I had more time than I was given to work on this. I definitely
+didn't get to add all of the features I wanted to, such as the Load game
+(which does load the last played level) and other potions/enemies/traps and stuff.
+
+Anyways, thanks for playing, I hope you and your family is safe during the lockdown, 
+and have fun marking all of these assignments.
+
+- Will Chartrand
+  
+
+Instances of inheritance:
+ 
+ - Monsters inherit from base class Monster, which inherits from Being
+ - Potions inherit from base class Potion, which inherit from Item
+ - Levels inherit from base class Level
+
+Instances of Polymorphism:
+ 
+ - Move function for monsters
+ - Update function for Level
+

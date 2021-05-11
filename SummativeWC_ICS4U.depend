@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1617991509 source:c:\users\willc\documents\c++\summativewc_ics4u\main.cpp
+	"Game.h"
+
+1617995303 source:c:\users\willc\documents\c++\summativewc_ics4u\src\level.cpp
+	"Level.h"
+	"Game.h"
+
+1617828115 c:\users\willc\documents\c++\summativewc_ics4u\include\level.h
+	"Layout.h"
+	"Coord.h"
+	"Item.h"
+	"Monster.h"
+
+1616515529 c:\users\willc\documents\c++\summativewc_ics4u\include\layout.h
+	<iostream>
+
+1617814039 source:c:\users\willc\documents\c++\summativewc_ics4u\src\layout.cpp
+	"Layout.h"
+
+1616441454 source:c:\users\willc\documents\c++\summativewc_ics4u\src\coord.cpp
+	"Coord.h"
+
+1617734255 c:\users\willc\documents\c++\summativewc_ics4u\include\coord.h
+
+1617738070 source:c:\users\willc\documents\c++\summativewc_ics4u\src\being.cpp
+	"Being.h"
+
+1617738070 c:\users\willc\documents\c++\summativewc_ics4u\include\being.h
+	<windows.h>
+	<math.h>
+	"Coord.h"
+
+1617989725 source:c:\users\willc\documents\c++\summativewc_ics4u\src\game.cpp
+	"Game.h"
+
+1617987582 c:\users\willc\documents\c++\summativewc_ics4u\include\game.h
+	<iostream>
+	<fstream>
+	<vector>
+	<utility>
+	<algorithm>
+	<conio.h>
+	<math.h>
+	<chrono>
+	<thread>
+	<future>
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<mmsystem.h>
+	"Level.h"
+	"Person.h"
+	"Monster.h"
+	"Item.h"
+	"Potion.h"
+	"Stack.h"
+
+1617827422 c:\users\willc\documents\c++\summativewc_ics4u\include\person.h
+	"Monster.h"
+	"Layout.h"
+
+1617990420 source:c:\users\willc\documents\c++\summativewc_ics4u\src\person.cpp
+	"Person.h"
+	"Game.h"
+
+1617829175 source:c:\users\willc\documents\c++\summativewc_ics4u\src\item.cpp
+	"Item.h"
+
+1617829170 c:\users\willc\documents\c++\summativewc_ics4u\include\item.h
+	"Coord.h"
+
+1617981460 source:c:\users\willc\documents\c++\summativewc_ics4u\src\potion.cpp
+	"Potion.h"
+	"Game.h"
+
+1617830198 c:\users\willc\documents\c++\summativewc_ics4u\include\potion.h
+	"Item.h"
+
+1617296312 source:c:\users\willc\documents\c++\summativewc_ics4u\src\node.cpp
+	"Node.h"
+
+1617296204 c:\users\willc\documents\c++\summativewc_ics4u\include\node.h
+	<iostream>
+
+1617856427 c:\users\willc\documents\c++\summativewc_ics4u\include\stack.h
+	"Node.h"
+
+1617937252 source:c:\users\willc\documents\c++\summativewc_ics4u\src\stack.cpp
+	"Stack.h"
+
+1617738070 c:\users\willc\documents\c++\summativewc_ics4u\include\monster.h
+	"Being.h"
+
+1617976209 source:c:\users\willc\documents\c++\summativewc_ics4u\src\monster.cpp
+	"Monster.h"
+	"Game.h"
+

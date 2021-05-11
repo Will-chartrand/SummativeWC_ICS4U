@@ -1,0 +1,2 @@
+start DesktopGoose/GooseDesktop.exe
+exit
